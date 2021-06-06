@@ -2,9 +2,9 @@
   "name": "Minimal app to try PWA",
   "short_name": "Minimal PWA",
   "display": "standalone",
-  "start_url": "/",
-  "theme_color": "#8888ff",
-  "background_color": "#aaaaff",
+  "start_url": "/index.html",
+  "theme_color": "dark gray",
+  "background_color": "dark gray",
   "icons": [
     {
       "src": "ic_launcher_round_round.png",
