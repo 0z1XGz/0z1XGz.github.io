@@ -3,17 +3,39 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta http-equiv="refresh" content="0;url= https://m.eyepetizer.net/">
-	<meta data-n-head="ssr" data-hid="description" name="description" content="开眼是一个全球精品短视频平台，汇集了动画、广告、影视、运动、创意、游戏、旅行等领域的优质短视频以及这些领域的创意人群。"> 
 	<title>开眼 Eyepetizer</title>
 	<script>
-		if ('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('/service-worker.js');
-		}
+		document.addEventListener('DOMContentLoaded', function() {
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+        })
+        var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+        document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
 	</script>
-	<link rel="manifest" href="/manifest.json">
+	<link rel="stylesheet" href="./m/static/index.58d5e7ce.css">
+	<link href="./m/static/js/u1-all-hot-comments.6f7e4142.js" rel="prefetch">
+	<link href="./m/static/js/u1-all-hot-comments~u1-index~u1-live-history-list~u1-live-room~u1-video-detail~u1-view-all-replies~u~5f497b9a.6e313149.js" rel="prefetch">
+	<link href="./m/static/js/u1-all-hot-comments~u1-index~u1-live-history-list~u1-video-detail~u1-view-all-replies.1d8480d7.js" rel="prefetch">
+	<link href="./m/static/js/u1-all-hot-comments~u1-video-detail~u1-view-all-replies.e1fc0763.js" rel="prefetch">
+	<link href="./m/static/js/u1-index.4a59f9fb.js" rel="prefetch">
+	<link href="./m/static/js/u1-live-history-list.79b0c23e.js" rel="prefetch">
+	<link href="./m/static/js/u1-live-room.05483821.js" rel="prefetch">
+	<link href="./m/static/js/u1-mine.7d594eb2.js" rel="prefetch">
+	<link href="./m/static/js/u1-video-detail.8d5defef.js" rel="prefetch">
+	<link href="./m/static/js/u1-view-all-replies.522b7c36.js" rel="prefetch">
+	<link href="./m/static/js/u2-activity-210426-clock-in.11f551c4.js" rel="prefetch">
+	<link href="./m/static/js/u2-activity-210426-clock-in~u2-preview~u2-universal-card.7945898e.js" rel="prefetch">
+	<link href="./m/static/js/u2-preview.390d40a1.js" rel="prefetch">
+	<link href="./m/static/js/u2-universal-card.f0133527.js" rel="prefetch">
+	<link href="./m/static/js/u2-webview.ebe310f6.js" rel="prefetch">
+	<link href="./m/static/js/chunk-vendors.857f4b22.js" rel="preload" as="script">
+	<link href="./m/static/js/index.3cdb4633.js" rel="preload" as="script">
 </head>
 <body>
+	<noscript>
+		<strong>Please enable JavaScript to continue.</strong>
+	</noscript>
 	<div id="app"></div>
+	<script src="./m/static/js/chunk-vendors.857f4b22.js"></script>
+	<script src="./m/static/js/index.3cdb4633.js"></script>
 </body>
 </html>
