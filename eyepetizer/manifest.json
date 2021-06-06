@@ -3,7 +3,7 @@
   "short_name": "开眼",
   "description": "开眼是一个全球精品短视频平台，汇集了动画、广告、影视、运动、创意、游戏、旅行等领域的优质短视频以及这些领域的创意人群。",
   "display": "standalone",
-  "start_url": "https://m.eyepetizer.net/",
+  "start_url": "eyepetizer",
   "theme_color": "gray",
   "background_color": "gray",
   "icons": [
