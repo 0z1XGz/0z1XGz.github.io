@@ -1,2 +1,1 @@
-开眼视频 | Eyepetizer PWA版
-代码还在测试ing......
+开眼视频Eyepetizer PWA版
