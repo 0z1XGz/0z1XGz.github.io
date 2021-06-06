@@ -1,14 +1,15 @@
 {
-  "name": "Minimal app to try PWA",
-  "short_name": "Minimal PWA",
+  "name": "Eyepetizer | 开眼视频",
+  "short_name": "开眼",
+  "description": "开眼是一个全球精品短视频平台，汇集了动画、广告、影视、运动、创意、游戏、旅行等领域的优质短视频以及这些领域的创意人群。",
   "display": "standalone",
-  "start_url": "/eyepetizer",
-  "theme_color": "dark gray",
-  "background_color": "dark gray",
+  "start_url": "https://m.eyepetizer.net/",
+  "theme_color": "gray",
+  "background_color": "gray",
   "icons": [
     {
       "src": "ic_launcher_round_round.png",
-      "sizes": "256x256",
+      "sizes": "72x72 96x96 128x128 256x256",
       "type": "image/png"
     }
   ]
